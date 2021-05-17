@@ -33,10 +33,10 @@ export class NovaTransferenciaComponent implements OnInit {
     return valido;
   }
 
-  exibirModalErro(mensagem: any){ }
-
   limparCampos() {
     this.valor = 0;
     this.destino = 0;
   }
+
+    //exibirModalErro(mensagem?: any){ }
 }
